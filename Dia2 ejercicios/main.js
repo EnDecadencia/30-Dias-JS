@@ -1,3 +1,5 @@
+//level 1
+
 let challenge = '30 Days Of JavaScript' //1
 let empresas = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon'
 let frase = 'You cannot end a sentence with because because because is a conjunction'
@@ -29,3 +31,22 @@ console.log(frase.endsWith('tion')) //22
 console.log(frase.match('a')) //23
 console.log(frase1.concat(frase2)) //24
 console.log(challenge.repeat(2)) //25
+
+//level 2
+
+console.log("The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another.") //1
+console.log("Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead.") //2
+console.log(typeof 10)  //3
+console.log(Math.round(parseFloat('9.8')))//4
+console.log("python".includes('on') && "jargon".includes('on')) //5
+console.log("I hope this course is not full of jargon.".includes('jargon')) //6
+const num = Math.floor(Math.random () * 101) 
+console.log(num) //7
+const num2 = Math.floor(Math.random () * 51) + 50
+console.log(num2) //8
+const num3 = Math.floor(Math.random () * 256)
+console.log(num3) //9
+console.log(Math.floor(Math.random() * 'JavaScript'.length)) //10
+//11
+//12
+
