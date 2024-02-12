@@ -50,3 +50,20 @@ console.log(Math.floor(Math.random() * 'JavaScript'.length)) //10
 //11
 //12
 
+//level 3
+
+const sentence = 'Love is the best thing in this world. Some found their love and some are still looking for their love.';
+const wordToSearch = 'love';
+
+// Create a regular expression to match the word 'love' globally (i.e., all occurrences)
+const regex = new RegExp(wordToSearch, 'gi');
+
+// Use match() with the regular expression to find all occurrences of 'love' in the sentence
+const occurrences = sentence.match(regex);
+
+// If there are occurrences, count the length of the array; otherwise, set the count to 0
+const count = occurrences ? occurrences.length : 0;
+
+console.log(`Number of occurrences of '${wordToSearch}': ${count}`);
+
+
