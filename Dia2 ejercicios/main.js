@@ -52,18 +52,25 @@ console.log(Math.floor(Math.random() * 'JavaScript'.length)) //10
 
 //level 3
 
-const sentence = 'Love is the best thing in this world. Some found their love and some are still looking for their love.';
-const wordToSearch = 'love';
+//1
 
-// Create a regular expression to match the word 'love' globally (i.e., all occurrences)
-const regex = new RegExp(wordToSearch, 'gi');
+const sentence1 = 'Love is the best thing in this world. Some found their love and some are still looking for their love.';
+let pattern = /love/gi
+cantidadLove = sentence1.match(pattern)
+console.log(cantidadLove.length)
 
-// Use match() with the regular expression to find all occurrences of 'love' in the sentence
-const occurrences = sentence.match(regex);
+//2
 
-// If there are occurrences, count the length of the array; otherwise, set the count to 0
-const count = occurrences ? occurrences.length : 0;
+const sentence2 = 'You cannot end a sentence with because because because is a conjunction';
+let pattern2 = /because/gi
+cantidadLove = sentence1.match(pattern)
+console.log(cantidadLove.length)
 
-console.log(`Number of occurrences of '${wordToSearch}': ${count}`);
+//3
 
+//4
+let act4 =  'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
 
+let regEx3 = /\d+/
+console.log(act4.match(regEx3))
+console.log(act4.match(/\d+/g))
