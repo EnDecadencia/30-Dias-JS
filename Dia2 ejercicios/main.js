@@ -69,8 +69,14 @@ console.log(cantidadLove.length)
 //3
 
 //4
+
 let act4 =  'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
 
-let regEx3 = /\d+/
-console.log(act4.match(regEx3))
-console.log(act4.match(/\d+/g))
+let numsSalario = act4.match(/\d+/g)
+let salarioInt = numsSalario.map(str => parseInt(str));
+let salarioAnualneto = salarioInt[0] * 12
+let anualBonus = salarioInt[1]
+let salarioAnualCursos = salarioInt[2] * 12
+let salarioFinal = salarioAnualneto + salarioAnualCursos + anualBonus
+console.log("el salario final anual es:",salarioFinal)
+
