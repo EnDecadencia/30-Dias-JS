@@ -6,7 +6,7 @@ let country = 'Argentina'
 let city = 'Lanus'
 let age = 18
 let isMarried = false
-const year = now.getFullYear()
+let yearr = '2024'
 
 console.log(typeof '10' === typeof 10) //2, no es un string
 console.log(parseInt('9.8') === 10) //3, no es 9
@@ -37,4 +37,14 @@ console.log(4 === '4') //false
 
 //6
 
+//7
 
+console.log(now.getFullYear())
+console.log(now.getMonth()+1)
+console.log(now.getDate())
+console.log(now.getDay())
+console.log(now.getHours())
+console.log(now.getMinutes())
+console.log(now.getTime())
+
+//lvl 2
