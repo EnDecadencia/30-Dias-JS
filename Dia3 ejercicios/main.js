@@ -48,3 +48,26 @@ console.log(now.getMinutes())
 console.log(now.getTime())
 
 //lvl 2
+//1
+
+/*let base = prompt('base')
+console.log(base)
+
+let altura = prompt('altura')
+console.log(altura)
+
+let sumaBxA = base * altura
+area = sumaBxA * 0.5
+console.log(area) */
+
+//2
+
+let a = prompt('lado a')
+console.log(a)
+let b = prompt('lado b')
+console.log(b)
+let c = prompt('lado c')
+console.log(c)
+
+let triangulo = a * b * c
+console.log("el resultado del triangulo es: ", triangulo)
