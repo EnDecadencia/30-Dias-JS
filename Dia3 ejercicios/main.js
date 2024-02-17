@@ -61,7 +61,7 @@ area = sumaBxA * 0.5
 console.log(area) */
 
 //2
-
+/*
 let a = prompt('lado a')
 console.log(a)
 let b = prompt('lado b')
@@ -71,3 +71,66 @@ console.log(c)
 
 let triangulo = a * b * c
 console.log("el resultado del triangulo es: ", triangulo)
+
+//3
+let largo = prompt('largo')
+console.log(largo)
+largo = parseInt(largo)
+
+let ancho = prompt('ancho')
+ancho = parseInt(ancho)
+console.log(ancho)
+
+let perimetro = largo + ancho 
+let area = largo * ancho 
+console.log(perimetro)
+
+console.log("el area es: ", area, " el perimetro es: " , perimetro)
+
+//4 
+
+
+r = prompt('ingrese el area: ')
+r = parseInt(r)
+let pi = Math.PI
+areaa = pi * r
+console.log(areaa) */
+
+//5
+var equation = "2x - 2";
+var xparse= Math.parseInt = equation
+var slope = 2*xparse-2
+slope = parseFloat(slope);
+var slope = 2*xparse-2
+console.log(xparse)
+xsplit= xparse.split
+console.log(xsplit)
+console.log("La pendiente (m) es: " + slope)
+var yIntercept = equation.split(" ")[2]
+console.log(equation.split(" ")[2])
+yIntercept = parseFloat(yIntercept)
+console.log("La intersección en y es: " + yIntercept)
+
+var xIntercept = -yIntercept / slope
+console.log("La intersección en x es: " + xIntercept)
+console.log(yIntercept)
+//6
+
+let x1 = 2
+x2 = 6
+y1 = 2
+y2 = 10
+var slope = (y2 - y1) / (x2 - x1)
+console.log("La pendiente (m) entre los puntos (" + x1 + ", " + y1 + ") y (" + x2 + ", " + y2 + ") es: " + slope)
+
+//7
+
+console.log("La intersección en x es: " + xIntercept)
+console.log(yIntercept)
+console.log("La pendiente (m) entre los puntos (" + x1 + ", " + y1 + ") y (" + x2 + ", " + y2 + ") es: " + slope)
+
+//8 es 0 cuando es -3
+let x = -3
+let y3
+y3 = (Math.pow(x,2)+6*x+9)
+console.log(y3)
