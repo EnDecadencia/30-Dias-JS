@@ -134,3 +134,34 @@ let x = -3
 let y3
 y3 = (Math.pow(x,2)+6*x+9)
 console.log(y3)
+
+//9
+
+/*var hoursWorked = parseFloat(prompt("Ingrese las horas trabajadas:"));
+
+var hourlyRate = parseFloat(prompt("Ingrese la tarifa por hora:"));
+
+var totalPay = hoursWorked * hourlyRate;
+
+console.log("El pago total es: " + totalPay);*/
+
+//14
+
+// Definir el número de años
+let years = prompt('years')
+var yearsNum = years.parseFloat
+
+
+// Calcular el número de días en 100 años
+var daysIn100Years = yearsNum * 365; // Suponiendo que no consideramos los años bisiestos
+
+// Calcular el número de segundos en un día
+var secondsInDay = 24 * 60 * 60;
+
+// Calcular el número total de segundos en 100 años
+var secondsIn100Years = daysIn100Years * secondsInDay;
+
+// Mostrar el resultado
+console.log("En " + yearsNum + " años hay aproximadamente " + secondsIn100Years.toLocaleString() + " segundos.");
+
+
