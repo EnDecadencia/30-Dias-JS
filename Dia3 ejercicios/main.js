@@ -147,21 +147,15 @@ console.log("El pago total es: " + totalPay);*/
 
 //14
 
-// Definir el número de años
 let years = prompt('years')
-var yearsNum = years.parseFloat
+let yearsNum = parseFloat(years)
 
+var daysIn100Years = yearsNum * 365; 
 
-// Calcular el número de días en 100 años
-var daysIn100Years = yearsNum * 365; // Suponiendo que no consideramos los años bisiestos
-
-// Calcular el número de segundos en un día
 var secondsInDay = 24 * 60 * 60;
 
-// Calcular el número total de segundos en 100 años
 var secondsIn100Years = daysIn100Years * secondsInDay;
 
-// Mostrar el resultado
-console.log("En " + yearsNum + " años hay aproximadamente " + secondsIn100Years.toLocaleString() + " segundos.");
+console.log("En " + yearsNum + " años hay aproximadamente " + secondsIn100Years + " segundos.");
 
 
