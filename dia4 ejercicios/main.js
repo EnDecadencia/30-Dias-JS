@@ -52,13 +52,12 @@ score = parseInt(score);
     } else {
         console.log("Invalid score entered. Please enter a score between 0 and 100.");
     }
-*/
+
 //2
 
-var month = prompt("ingrese el mes: ");
+var month = prompt("enter the month: ");
 
 var monthLower = month.toLowerCase()
-console.log(monthLower)
 
 var autumn = ['september', 'october ', 'november']
 var winter = ['december', 'january', 'february']
@@ -75,4 +74,21 @@ var summer = ['june', 'july', 'august']
         console.log("Its summer");
     } else {
         console.log("Invalid value");
+    }
+*/
+
+//3
+
+var day = prompt("What day is today? ");
+var dayLower = day.toLowerCase()
+
+var week = ['monday','tuesday','wednesday', 'thursday','friday']
+var weekend = ['saturday', 'sunday']
+
+    if (week.includes(dayLower)) {
+        console.log(dayLower," is a working day.")
+    } else if (weekend.includes(dayLower)){
+        console.log(dayLower, "is a weekend.")
+    } else {
+        console.log("please enter a valid imput.")
     }
