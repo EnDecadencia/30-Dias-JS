@@ -35,7 +35,7 @@ if (a > b) {
 //lvl2
 
 //1
-
+/*
 var score = prompt("Enter the student's score:");
 
 score = parseInt(score);
@@ -52,4 +52,27 @@ score = parseInt(score);
     } else {
         console.log("Invalid score entered. Please enter a score between 0 and 100.");
     }
+*/
+//2
 
+var month = prompt("ingrese el mes: ");
+
+var monthLower = month.toLowerCase()
+console.log(monthLower)
+
+var autumn = ['september', 'october ', 'november']
+var winter = ['december', 'january', 'february']
+var spring = ['march', 'april', 'may']
+var summer = ['june', 'july', 'august']
+
+    if (autumn.includes(monthLower)) {
+        console.log("Its autumn");
+    } else if (winter.includes(monthLower)) {
+        console.log("Its winter");
+    } else if (spring.includes(monthLower)) {
+        console.log("Its spring");
+    } else if (summer.includes(monthLower)) {
+        console.log("Its summer");
+    } else {
+        console.log("Invalid value");
+    }
