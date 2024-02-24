@@ -1,6 +1,6 @@
 //lvl 1
 //1
-/*
+
 let age = prompt('edad')
 let ageNum = parseFloat(age)
 
@@ -21,7 +21,7 @@ if (ageUserNum  > myAge) {
     difUser = myAge - ageUserNum
     alert("Tengo " + difUser + " años mas que vos")
     }
-    */
+    
 //3
 let a = 30
 let b = 10
@@ -35,7 +35,7 @@ if (a > b) {
 //lvl2
 
 //1
-/*
+
 var score = prompt("Enter the student's score:");
 
 score = parseInt(score);
@@ -75,7 +75,7 @@ var summer = ['june', 'july', 'august']
     } else {
         console.log("Invalid value");
     }
-*/
+
 
 //3
 
