@@ -22,5 +22,39 @@ console.log(numbers.indexOf(firstElement2))
 console.log(itCompanies) //10
 const upperCaseItCompanies = itCompanies.map(element => element.toUpperCase()); //11
 console.log(upperCaseItCompanies);
-const sentence = itCompanies.join(', ') + " are big IT companies.";
+const sentence = itCompanies.join(', ') + " are big IT companies."; //12
 console.log(sentence);
+
+if (itCompanies.indexOf('Google')) { //13
+    console.log('It contains the value: Google.')
+} else {
+    console.log('The company is not found.')
+}
+
+const filteredCompanies = []; //14
+
+for (let i = 0; i < itCompanies.length; i++) {
+    let count = 0;
+    for (let j = 0; j < itCompanies[i].length; j++) {
+        if (itCompanies[i][j] === 'o' || itCompanies[i][j] === 'O') {
+            count++;
+            if (count > 1) {
+                break;
+            }
+        }
+    }
+    if (count <= 1) {
+        filteredCompanies.push(itCompanies[i]);
+    }
+}
+
+console.log(filteredCompanies);
+
+console.log(itCompanies.sort()) //15
+console.log(itCompanies.reverse()) //16
+console.log(itCompanies.slice(0,3)) //17
+console.log(itCompanies.slice(4,7)) //18
+
+//lvl2
+
+
