@@ -1,6 +1,6 @@
 
 
-  export const countries = () => {
+
     const countries = [
         'Albania',
         'Bolivia',
@@ -13,5 +13,6 @@
         'Ireland',
         'Japan',
         'Kenya'
-      ]
-};
+      ];
+
+module.exports = countries;
