@@ -57,4 +57,10 @@ console.log(itCompanies.slice(4,7)) //18
 
 //lvl2
 
+//const countries = require('./countries.js');
+//console.log(countries);
 
+// anotherFile.js
+const myArray = require('./arrayFile.js');
+
+console.log(myArray); // Output: [1, 2, 3, 4, 5]

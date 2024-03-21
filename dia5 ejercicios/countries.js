@@ -1,6 +1,6 @@
 
 
-  export const myFunction = () => {
+  export const countries = () => {
     const countries = [
         'Albania',
         'Bolivia',
